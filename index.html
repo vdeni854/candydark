@@ -1,55 +1,72 @@
+<!DOCTYPE html>
 <html>
-
 <head>
+<title>My page!</title>
+<link rel="stylesheet" href="styles.css">
 
-
-<h1><img src="blackgoose.png" alt="Black Goose Logo"></h1>
-<h1>Black Goose Bistro<br></h1>
-<hr><bg color = "cyan">
-
-<h2>Restaurant</h2>
-<p>The Black Goose Bistro restaurant offers casual lunch and dinner fare in a hip atmosphere. The 
-menu changes regularly to highlight freshest ingredients.</p>
-
-<h2>Catering</h2>
-<p>You have fun. <em>We will handle the cooking</em>. Black Goose Catering can handle events from snacks
-for bridge club to elegant corporate fundraisers.</p>
-<meta carset = "utf-8">
-
-<h2>Location and Hours</h2>
-<p>Seekonk, Massachusetts; Monday through Thursday 11am to 9pm, Friday to Saturday, 11am to 
-midnight.</p>
-<title>Black Goose Bestro</title>
 <style>
-
-body {
-	background-color: #faf2e4;
-	margin: 0.15%;
-	font-family: sans-serif;
+	body {
+		background: dark grey;
+		color: white;
+		font-family: Helvetica Neue, Helvetica, Arial;
+		margin: 0;
+		padding: 0;
+		}
+	header {
+		background: black;
+		padding: 20px;
+	 }
+	section {
+		background: white;
+		color: grey;
+		padding: 20px;
+		display: flex;
+		flex-direction: row;
+		}
+	div {
+		color: pink;
+		display: block;
+		margin: auto;
+		width: 100px;
+		}
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		}
+	li {
+		display: inline-block;
+		margin-right: 20px;
 	}
-	
-h1 {
-	text-align: center;
-	font-family: serif;
-	font-weight: normal;
-	text-transform: uppercase;
-	border-bottom: 1px solid #57bldc;
-	margin-top: 30px;
+	footer {
+		background:black;
+		padding: 10px 20px;
 	}
-h2 {
-	color: #d1633c;
-	font-size: lem;
-	}	
-
-
-
+		
 </style>
 </head>
-
-<h2>
-
 <body>
-
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</li>
+				<li><a href="manu.html">Manu</a></li>
+				<li class="logo"><a href="index.html">Artisan Bakery Logo</a></li>
+				<li><a href="index.html">Artisan Bakery Logo</a></li>
+				<li><a href="location.html">Location</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			
+		</nav>
+		<h1>Home</h1>
+	</header>
+	<section>
+		<div>a</div>
+		<div>b</div>
+		<div>c</div>
+	</section>
+	<section>lower-section</section>
+	<footer>footer</footer>
 </body>
 
 </html>
